@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        #submitButton {
+            background-color: darkorange;
+        }
+        #Loginform {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-shadow: 0ch; text-align: center;">ElectroFair Register</h1>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <form id="Loginform">
+            <fieldset>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="pswd">Password</label>
+                <input type="password" id="pswd" name="pswd" required>
+                <br><br>
+                <button type="submit" id="submitButton">Login</button>
+            </fieldset>
+        </form>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <p>Don't have an account?</p>
+        <a href="register.html">Click here to Sign Up</a>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
